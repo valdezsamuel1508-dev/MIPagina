@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clon</title>
+
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="sidebar">
+
+        <h2>Spotify</h2>
+
+        <div class="navbar">
+
+            <button id="back-btn">
+                <i class="fa-solid fa-chevron-left"></i>
+            </button>
+
+            <button id="forward-btn">
+                <i class="fa-solid fa-chevron-right"></i>
+            </button>
+
+        </div>
+
+        <a href="#" id="inicio-btn">
+           <i class="fa-solid fa-house"></i>
+           Inicio
+        </a>
+
+        <a href="#" id="buscar-btn">
+           <i class="fa-solid fa-magnifying-glass"></i>
+           Buscar
+        </a>
+
+        <a href="#" id="biblioteca-btn">
+           <i class="fa-solid fa-book"></i>
+           Tu biblioteca
+        </a>
+
+    </div>
+
+    <div class="contenido">
+
+        <div class="header">
+
+            <h1>Bienvenido</h1>
+
+            <button id="theme-btn">
+            🌙 Modo Oscuro
+            </button>
+
+        </div>
+        
+        <input
+        type="text"
+        id="search"
+        placeholder="Buscar canción..."
+        >
+
+        <button id="ver-favoritos">
+            Mis Favoritos
+        </button>
+
+        <button id="ver-todas">
+        Todas las canciones
+        </button>
+
+        <button id="ver-recientes">
+        Recientes
+        </button>
+
+        <input
+        type="text"
+        id="playlist-name"
+        placeholder="Nombre de la playlist">
+
+        <button id="crear-playlist">
+        Crear Playlist
+        </button>
+
+        <div id="playlists"></div>
+
+        <h2 id="section-title">💿 Álbumes</h2>
+
+        <div class="cards"></div>
+
+        <div id="queue">
+            <h3>📋 Cola de reproducción</h3>
+            <div id="queue-list"></div>
+        </div>
+
+    </div>
+
+<div class="player">
+
+    <div class="song">
+
+        <img id="cover"
+        src="img/nohaycondena.jpg"
+        alt="">
+
+        <div>
+            <h4 id="titulo">No hay condena</h4>
+            <p id="artista">La Feria</p>
+        </div>
+
+    </div>
+
+    <div class="controls">
+
+        <i class="fa-solid fa-backward" id="prev-btn"></i>
+
+        <i class="fa-solid fa-play" id="play-btn"></i>
+
+        <i class="fa-solid fa-forward" id="next-btn"></i>
+
+        <i class="fa-solid fa-shuffle" id="change-btn"></i>
+
+        <i class="fa-solid fa-repeat" id="repeat-btn"></i>
+
+        <input type="range" id="progress" value="0">
+
+        <span id="time">0:00 / 0:00</span>
+
+        <i class="fa-solid fa-volume-high" id="volume-icon"></i>
+
+        <input type="range"
+        id="volume"
+        min="0"
+        max="1"
+        step="0.1"
+        value="1">
+
+    </div>
+
+</div>
+
+<audio id="audio">
+
+    <source src="music/song.MP3" type="audio/mp3">
+
+</audio>
+
+    <script src="spotify.js"></script>
+
+</body>
+</html>

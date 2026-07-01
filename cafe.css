@@ -1,0 +1,324 @@
+body{
+
+    min-height: 100vh;
+
+    font-family: Arial;
+
+    margin: 0;
+
+    background: #f5e6d3;
+
+    background-image: url("granos.png");
+
+    background-size: 50%;
+
+    background-position: right -300px center;
+
+    background-repeat: no-repeat;
+
+    min-height: 50vh;
+
+}
+
+.fresas{
+
+    position: absolute;
+
+    top: 500px;
+
+    left: -300px;
+
+    width: 900px;
+
+    opacity: 1;
+
+    z-index: -1;
+}
+
+.arriba{
+       background: linear-gradient(
+        to bottom right,
+        #260D00,
+        #9A5833
+    );
+
+    height: 40vh;
+
+    padding-top: 40px;
+
+    padding-bottom: 40px;
+}
+
+.abajo{
+    background: #f5e6d3;
+
+    padding-top: 40px;
+
+    color: black;
+
+    padding: 40px;
+
+    text-align: center;
+
+    font-family: 'Playfair Display', serif;
+
+    letter-spacing: 10px;
+}
+
+
+.titulo-desayunos{
+
+    background: #260D00;
+
+    color: white;
+
+    width: 220px;
+
+    padding: 20px;
+
+    border-radius: 25px;
+
+    margin: -30px auto 50px auto;
+
+    position: relative;
+
+    z-index: 10;
+
+    text-align: center;
+
+    font-family: 'Poppins', sans-serif;
+
+    letter-spacing: 3px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+/* LOGO */
+
+.monarca{
+     width: 220px;
+
+    height: 220px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    display: block;
+
+    margin: auto;
+}
+
+.linea{
+    width: 250px;
+
+    height: 4px;
+
+    background: white;
+
+    margin: 20px auto;
+
+    border-radius: 20px;
+}
+
+.subtitulo{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+
+
+.contenedor{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+
+    width: 280px;
+
+    background: white;
+
+    border-radius: 25px;
+
+    overflow: hidden;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+.tarjeta:hover{
+
+    transform: scale(1.05);
+}
+
+.tarjeta img{
+
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+}
+
+.info{
+
+    padding: 20px;
+}
+
+.info h2{
+
+    text-align: center;
+
+    margin: 0;
+}
+
+.ingredientes{
+
+    display: none;
+
+    margin-top: 20px;
+
+    color: #444;
+
+    line-height: 30px;
+}
+
+.mostrar{
+
+    display: block;
+}
+
+
+.titulo-cafes{
+
+    background: #260D00;
+
+    color: white;
+
+    width: 220px;
+
+    padding: 20px;
+
+    border-radius: 25px;
+
+    margin: 50px auto 50px auto;
+
+    position: relative;
+
+    z-index: 10;
+
+    text-align: center;
+
+    font-family: 'Poppins', sans-serif;
+
+    letter-spacing: 3px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+
+.titulo-bebidas{
+
+    background: #260D00;
+
+    color: white;
+
+    width: 220px;
+
+    padding: 20px;
+
+    border-radius: 25px;
+
+    margin: 50px auto 50px auto;
+
+    position: relative;
+
+    z-index: 10;
+
+    text-align: center;
+
+    font-family: 'Poppins', sans-serif;
+
+    letter-spacing: 3px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.titulo-postres{
+
+    background: #260D00;
+
+    color: white;
+
+    width: 220px;
+
+    padding: 20px;
+
+    border-radius: 25px;
+
+    margin: 50px auto 50px auto;
+
+    position: relative;
+
+    z-index: 10;
+
+    text-align: center;
+
+    font-family: 'Poppins', sans-serif;
+
+    letter-spacing: 3px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.titulo-especialidades{
+
+    background: #260D00;
+
+    color: white;
+
+    width: 220px;
+
+    padding: 20px;
+
+    border-radius: 25px;
+
+    margin: 50px auto 50px auto;
+
+    position: relative;
+
+    z-index: 10;
+
+    text-align: center;
+
+    font-family: 'Poppins', sans-serif;
+
+    letter-spacing: 3px;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+
+.choco{
+
+    position: absolute;
+
+    top: 2600px;
+
+    left: -300px;
+
+    width: 900px;
+
+    opacity: 1;
+
+    z-index: -1;
+}

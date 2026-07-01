@@ -1,0 +1,384 @@
+body{
+    background: linear-gradient(
+        to bottom right,
+        #003cff,
+        #6ec6ff
+    );
+
+    min-height: 100vh;
+
+    color: white;
+
+    font-family: Arial;
+
+    margin: 0;
+}
+
+/* PRESENTACIÓN */
+
+.presentacion{
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 60px;
+
+    margin-top: 80px;
+}
+
+/* INFORMACIÓN */
+
+.info{
+    text-align: left;
+
+    max-width: 400px;
+}
+
+/* FOTO */
+
+img{
+    width: 220px;
+
+    height: 220px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+/* TÍTULOS */
+
+h1{
+    color: rgb(253, 247, 74);
+
+    font-size: 50px;
+}
+
+h2{
+    color: lightblue;
+}
+
+/* TEXTO */
+
+p{
+    font-size: 20px;
+}
+
+/* LISTA */
+
+ul{
+    list-style: none;
+
+    padding: 0;
+}
+
+/* CONTENEDOR DE TARJETAS */
+
+.cards{
+    display: flex;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    margin-top: 80px;
+
+    flex-wrap: wrap;
+}
+
+/* TARJETAS */
+
+.card{
+    width: 250px;
+
+    padding: 30px;
+
+    border-radius: 30px;
+
+    background: rgba(255,255,255,0.15);
+
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+
+    transition: 0.3s;
+
+    text-align: center;
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+/* TEXTO */
+
+.card h2{
+    color: white;
+
+    margin-bottom: 15px;
+}
+
+.card p{
+    font-size: 16px;
+}
+
+.habilidades{
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 60px;
+
+    margin-top: 80px;
+
+    flex-direction: row-reverse;
+}
+
+/* INFORMACIÓN */
+
+.info-perfil{
+    text-align: left;
+
+    max-width: 600px;
+}
+
+/* FOTO */
+
+.foto-perfil{
+    width: 400px;
+
+    height: 560px;
+
+    border-radius: 25px;
+
+    object-fit: cover;
+}
+
+.tam{
+    color: lightblue;
+    text-align: center;
+}
+
+/* CONTENEDOR DE TARJETAS */
+
+.cards-dos{
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 30px;
+
+    margin-top: 80px;
+
+}
+
+/* TARJETAS */
+
+.card-tres{
+    width: 150px;
+
+    padding: 8px;
+
+    border-radius: 30px;
+
+    background: rgba(255,255,255,0.15);
+
+    backdrop-filter: blur(10px);
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+
+    transition: 0.3s;
+
+    text-align: center;
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+
+.card-tres:hover{
+    transform: translateY(-10px);
+}
+
+/* TEXTO */
+
+.card-tres h4{
+    color: white;
+
+    margin-bottom: 15px;
+}
+
+.card-tres p{
+    font-size: 16px;
+}
+
+/* ANIMACIÓN */
+
+.oculto{
+    opacity: 0;
+    transform: translateY(40px);
+    transition: 1s;
+}
+
+.mostrar{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#modo-btn{
+
+    padding: 12px 25px;
+
+    border: none;
+
+    border-radius: 20px;
+
+    background: white;
+
+    color: #003cff;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+    display: block;
+
+    margin: 40px auto;
+
+}
+
+
+.oscuro{
+
+    background: linear-gradient(
+        to bottom right,
+        #000000,
+        #222222
+    );
+
+}
+
+.proyectos{
+    display: flex;
+    justify-content: center; /* Las centra horizontalmente */
+    gap: 30px;               /* Espacio entre las imágenes */
+}
+
+.proyecto{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h5{
+    margin-top: 30px;
+
+    font-size: 25px;
+
+    text-align: center;
+}
+
+@media (max-width: 768px){
+
+    .presentacion{
+
+        flex-direction: column;
+
+        text-align: center;
+
+        gap: 30px;
+
+        margin-top: 40px;
+
+        padding: 20px;
+    }
+
+    .info{
+        text-align: center;
+    }
+
+    .habilidades{
+
+        flex-direction: column;
+
+        gap: 30px;
+
+        padding: 20px;
+    }
+
+    .info-perfil{
+        text-align: center;
+    }
+
+    .foto-perfil{
+
+        width: 280px;
+
+        height: auto;
+    }
+
+    .tam{
+    color: lightblue;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+
+    h1{
+        font-size: 35px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    .cards{
+
+        margin-top: 50px;
+
+        padding: 20px;
+    }
+
+    .card{
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .cards-dos{
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .proyectos{
+    display: flex;
+    justify-content: center; /* Las centra horizontalmente */
+    gap: 15px;               /* Espacio entre las imágenes */
+}
+    .proyecto{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+h5{
+    margin-top: 15px;
+
+    font-size: 20px;
+
+    text-align: center;
+}
+
+}
