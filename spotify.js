@@ -182,7 +182,7 @@ const canciones = [
         artista: "Majo y Dan & Madiel Lara",
         album: "Días contigo",
         imagen: "img/diascontigo.jpg",
-        audio: "music/song12.MP3"
+        audio: "music/Song12.MP3"
     },
 
     {
@@ -190,7 +190,7 @@ const canciones = [
         artista: "Majo y Dan",
         album: "Días contigo",
         imagen: "img/diascontigo.jpg",
-        audio: "music/song13.MP3"
+        audio: "music/Song13.MP3"
     },
 
     {
@@ -198,7 +198,7 @@ const canciones = [
         artista: "Majo y Dan & Vaes",
         album: "Días contigo",
         imagen: "img/diascontigo.jpg",
-        audio: "music/song14.MP3"
+        audio: "music/Song14.MP3"
     },
 
     {
@@ -206,7 +206,7 @@ const canciones = [
         artista: "Majo y Dan",
         album: "Días contigo",
         imagen: "img/diascontigo.jpg",
-        audio: "music/song15.MP3"
+        audio: "music/Song15.MP3"
     },
 
     {
@@ -214,7 +214,7 @@ const canciones = [
         artista: "Majo y Dan",
         album: "Días contigo",
         imagen: "img/diascontigo.jpg",
-        audio: "music/song16.MP3"
+        audio: "music/Song16.MP3"
     },
 
     {
@@ -222,7 +222,7 @@ const canciones = [
         artista: "Majo y Dan",
         album: "Días contigo",
         imagen: "img/diascontigo.jpg",
-        audio: "music/song17.MP3"
+        audio: "music/Song17.MP3"
     },
 
     {
@@ -230,7 +230,7 @@ const canciones = [
         artista: "Majo y Dan",
         album: "Días contigo",
         imagen: "img/diascontigo.jpg",
-        audio: "music/song18.MP3"
+        audio: "music/Song18.MP3"
     },
 
     {
@@ -238,7 +238,7 @@ const canciones = [
         artista: "Majo y Dan",
         album: "Días contigo",
         imagen: "img/diascontigo.jpg",
-        audio: "music/song19.MP3"
+        audio: "music/Song19.MP3"
     },
 
     {
@@ -246,7 +246,7 @@ const canciones = [
         artista: "Majo y Dan",
         album: "Días contigo",
         imagen: "img/diascontigo.jpg",
-        audio: "music/song20.MP3"
+        audio: "music/Song20.MP3"
     },
 
     {
@@ -254,7 +254,7 @@ const canciones = [
         artista: "Majo y Dan",
         album: "Días contigo",
         imagen: "img/diascontigo.jpg",
-        audio: "music/song21.MP3"
+        audio: "music/Song21.MP3"
     },
 
     {
@@ -262,7 +262,7 @@ const canciones = [
         artista: "Majo y Dan & Carla Morrison",
         album: "Días contigo",
         imagen: "img/diascontigo.jpg",
-        audio: "music/song22.MP3"
+        audio: "music/Song22.MP3"
     },
 
     {
@@ -270,7 +270,7 @@ const canciones = [
         artista: "Lauren Daigle",
         album: "Look up child",
         imagen: "img/lookup.jpg",
-        audio: "music/song23.MP3"
+        audio: "music/Song23.MP3"
     },
 
     {
@@ -278,7 +278,7 @@ const canciones = [
         artista: "Lauren Daigle",
         album: "Look up child",
         imagen: "img/lookup.jpg",
-        audio: "music/song24.MP3"
+        audio: "music/Song24.MP3"
     },
 
     {
@@ -286,7 +286,7 @@ const canciones = [
         artista: "Lauren Daigle",
         album: "Look up child",
         imagen: "img/lookup.jpg",
-        audio: "music/song25.MP3"
+        audio: "music/Song25.MP3"
     },
 
     {
@@ -294,7 +294,7 @@ const canciones = [
         artista: "Lauren Daigle",
         album: "Look up child",
         imagen: "img/lookup.jpg",
-        audio: "music/song26.MP3"
+        audio: "music/Song26.MP3"
     },
 
     {
@@ -302,7 +302,7 @@ const canciones = [
         artista: "Lauren Daigle",
         album: "Look up child",
         imagen: "img/lookup.jpg",
-        audio: "music/song27.MP3"
+        audio: "music/Song27.MP3"
     },
 
     {
@@ -310,7 +310,7 @@ const canciones = [
         artista: "Lauren Daigle",
         album: "Look up child",
         imagen: "img/lookup.jpg",
-        audio: "music/song28.MP3"
+        audio: "music/Song28.MP3"
     },
 
     {
@@ -318,7 +318,7 @@ const canciones = [
         artista: "Lauren Daigle",
         album: "Look up child",
         imagen: "img/lookup.jpg",
-        audio: "music/song29.MP3"
+        audio: "music/Song29.MP3"
     },
 
     {
@@ -326,7 +326,7 @@ const canciones = [
         artista: "Lauren Daigle",
         album: "Look up child",
         imagen: "img/lookup.jpg",
-        audio: "music/song30.MP3"
+        audio: "music/Song30.MP3"
     },
 
     {
@@ -334,7 +334,7 @@ const canciones = [
         artista: "Lauren Daigle",
         album: "Look up child",
         imagen: "img/lookup.jpg",
-        audio: "music/song31.MP3"
+        audio: "music/Song31.MP3"
     },
 
     {
@@ -342,7 +342,7 @@ const canciones = [
         artista: "Lauren Daigle",
         album: "Look up child",
         imagen: "img/lookup.jpg",
-        audio: "music/song32.MP3"
+        audio: "music/Song32.MP3"
     },
 
     {
@@ -350,7 +350,7 @@ const canciones = [
         artista: "Lauren Daigle",
         album: "Look up child",
         imagen: "img/lookup.jpg",
-        audio: "music/song33.MP3"
+        audio: "music/Song33.MP3"
     },
 
     {
@@ -358,7 +358,7 @@ const canciones = [
         artista: "Lauren Daigle",
         album: "Look up child",
         imagen: "img/lookup.jpg",
-        audio: "music/song34.MP3"
+        audio: "music/Song34.MP3"
     },
 
     {
@@ -366,7 +366,7 @@ const canciones = [
         artista: "Lauren Daigle",
         album: "Look up child",
         imagen: "img/lookup.jpg",
-        audio: "music/song35.MP3"
+        audio: "music/Song35.MP3"
     }
     
 ];
