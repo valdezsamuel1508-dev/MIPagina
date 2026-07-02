@@ -2,6 +2,10 @@
 
 Este es mi portafolio personal desarrollado con HTML, CSS y JavaScript.
 
+## 📷 Vista previa
+
+![Vista previa](preview.png)
+
 ## 🚀 Proyectos
 
 ### 🎵 Clon de Spotify
