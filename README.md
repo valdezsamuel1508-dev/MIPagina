@@ -2,11 +2,16 @@
 
 Este es mi portafolio personal desarrollado con HTML, CSS y JavaScript.
 
-## Proyectos
+## 🚀 Proyectos
 
-- 🎵 Clon de Spotify
-- ☕ Café Monarca
-- 👨‍💻 Portafolio Personal
+### 🎵 Clon de Spotify
+https://valdezsamuel1508-dev.github.io/MIPagina/spotify.html
+
+### ☕ Café Monarca
+https://valdezsamuel1508-dev.github.io/MIPagina/cafe.html
+
+### 👨‍💻 Portafolio Personal
+https://valdezsamuel1508-dev.github.io/MIPagina/
 
 ## Tecnologías
 
